@@ -39,7 +39,7 @@ function t1_uk_payment_method_disclamiers($fields) {
 		'id'			=> 't1_payment_disclaimer_4',
 		'name'			=> 't1_payment_disclaimer_4',
 		'class'         => array('t1-payment-method-disclaimer form-row-wide'),
-		'label'         => __('Credit/Debit Card, charges on your statement will appear as <strong>"ISODIOL8559796751 8559796751"</strong>.'),
+		'label'         => __('Credit/Debit Card, charges on your statement will appear as <strong style="color:#ff0000;">"ISODIOL8559796751"</strong>.'),
 		'required'   	=> true,
 		'value'			=> '0'
 	);
